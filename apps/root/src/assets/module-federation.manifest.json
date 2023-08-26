@@ -1,6 +1,6 @@
 {
-  "login": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io",
-  "dashboard": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io",
-  "app-one": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io",
-  "app-two": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io"
+  "login": "http://localhost:4201",
+  "dashboard": "http://localhost:4202",
+  "app-one": "http://localhost:4203",
+  "app-two": "http://localhost:4204"
 }

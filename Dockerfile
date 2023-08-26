@@ -5,12 +5,7 @@ COPY . .
 
 RUN npm install -g @nrwl/cli
 RUN npm install --force
-RUN npx nx build root --configuration=production
-RUN npx nx build login --configuration=production
-RUN npx nx build dashboard --configuration=production
-RUN npx nx build app-one --configuration=production
-RUN npx nx build app-two --configuration=production
-RUN pwd && ls
+RUN npx nx run-many -t build -p root login dashboard app-one app-two --configuration=production --skip-nx-cache
 
 #stage 2
 FROM nginx:alpine
