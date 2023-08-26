@@ -1,0 +1,51 @@
+<aside
+  class="fixed top-0 left-0 z-40 w-18 h-screen pt-14 transition-transform -translate-x-full bg-white border-r border-gray-200 md:translate-x-0 dark:bg-gray-800 dark:border-gray-700"
+  aria-label="Sidenav"
+  id="drawer-navigation"
+>
+  <div class="overflow-y-auto py-5 px-3 h-full bg-white dark:bg-gray-800">
+    <ul class="space-y-2">
+      <li>
+        <button
+          type="button"
+          routerLink="/app-one"
+          class="animate-fade animate-once animate-delay-200 flex items-center justify-center p-2 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+          aria-controls="dropdown-pages"
+          data-collapse-toggle="dropdown-pages"
+        >
+          <fa-icon  class="mr-2" [icon]="faGlobe"></fa-icon>
+          <span class="flex-1  text-left whitespace-nowrap"
+          >Item 1</span
+          >
+        </button>
+      </li>
+      <li>
+        <button
+          type="button"
+          routerLink="/app-two"
+          class="animate-fade animate-once animate-delay-300 flex items-center p-2 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+          aria-controls="dropdown-sales"
+          data-collapse-toggle="dropdown-sales"
+        >
+          <fa-icon class="mr-2" [icon]="faPercent"></fa-icon>
+          <span class="flex-1 text-left whitespace-nowrap"
+          >Item 2</span
+          >
+        </button>
+      <li>
+        <button
+          type="button"
+          routerLink="/app-two"
+          class="animate-fade animate-once animate-delay-300 flex items-center p-2 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+          aria-controls="dropdown-sales"
+          data-collapse-toggle="dropdown-sales"
+        >
+          <fa-icon  class="mr-2" [icon]="faPercent"></fa-icon>
+          <span class="flex-1 text-left whitespace-nowrap"
+          >Item 3</span
+          >
+        </button>
+      </li>
+    </ul>
+  </div>
+</aside>

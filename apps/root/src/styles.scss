@@ -1,0 +1,20 @@
+@use '@carbon/styles/scss/compat/themes';
+@use '@carbon/styles/scss/compat/theme' with (
+   $theme: themes.$g10
+);
+
+@use '@carbon/styles';
+
+:root {
+  @include theme.theme();
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  @apply h-full;
+}
+@import 'carbon-components/scss/globals/scss/styles.scss';

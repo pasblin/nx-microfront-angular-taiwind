@@ -1,0 +1,58 @@
+<div class="antialiased bg-gray-50 dark:bg-gray-900 h-full animate-fade">
+  <demo-micro-front-header />
+  <!-- Sidebar -->
+
+  <demo-micro-front-aside />
+
+  <main class="p-4 md:ml-28 h-full pt-20">
+    <cds-breadcrumb [noTrailingSlash]="true" class="mb-4 block">
+      <cds-breadcrumb-item routerLink="/" class="cursor-pointer">Back to home</cds-breadcrumb-item>
+    </cds-breadcrumb>
+    <cds-table-container>
+      <cds-table-header>
+        <h4 cdsTableHeaderTitle>Example app two table</h4>
+        <p cdsTableHeaderDescription>Description app two table</p>
+      </cds-table-header>
+      <cds-table-toolbar [model]="model" #toolbar>
+        <cds-table-toolbar-actions>
+          <button cdsButton="primary">
+            Delete
+            <svg cdsIcon="delete" size="16" class="cds--btn__icon"></svg>
+          </button>
+          <button cdsButton="primary">
+            Save
+            <svg cdsIcon="save" size="16" class="cds--btn__icon"></svg>
+          </button>
+          <button cdsButton="primary">
+            Download
+            <svg cdsIcon="download" size="16" class="cds--btn__icon"></svg>
+          </button>
+        </cds-table-toolbar-actions>
+        <cds-table-toolbar-content *ngIf="!toolbar.selected">
+          <cds-table-toolbar-search [expandable]="true"></cds-table-toolbar-search>
+          <button cdsButton="ghost" class="toolbar-action">
+            <svg
+              cdsIcon="settings"
+              size="16"
+              class="cds--toolbar-action__icon"
+            ></svg>
+          </button>
+          <button cdsButton="primary" size="sm">
+            Primary button
+            <svg cdsIcon="add" size="20" class="cds--btn__icon"></svg>
+          </button>
+        </cds-table-toolbar-content>
+      </cds-table-toolbar>
+      <cds-table
+        [model]="model"
+        [size]="'md'"
+        [sortable]="sortable"
+        [skeleton]="skeleton"
+        [showSelectionColumn]="showSelectionColumn"
+        [stickyHeader]="stickyHeader"
+        [striped]="striped"
+        [isDataGrid]="isDataGrid">
+      </cds-table>
+    </cds-table-container>
+  </main>
+</div>
