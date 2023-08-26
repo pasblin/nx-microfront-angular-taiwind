@@ -21,8 +21,4 @@ COPY --from=node app/dist/apps/dashboard /usr/share/nginx/html/dashboard
 COPY --from=node app/dist/apps/app-one /usr/share/nginx/html/app-one
 COPY --from=node app/dist/apps/app-two /usr/share/nginx/html/app-two
 
-EXPOSE 80
-EXPOSE 4201
-EXPOSE 4202
-EXPOSE 4203
-EXPOSE 4204
+EXPOSE 80 4201 4202 4203 4204
