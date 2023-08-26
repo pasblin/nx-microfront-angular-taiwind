@@ -1,6 +1,6 @@
 {
-  "login": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io/",
-  "dashboard": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io/",
-  "app-one": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io/",
-  "app-two": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io/"
+  "login": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io:4201",
+  "dashboard": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io:4202",
+  "app-one": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io:4203",
+  "app-two": "https://nx-microfront-angular-taiwind-deld-dev.fl0.io:4204"
 }
