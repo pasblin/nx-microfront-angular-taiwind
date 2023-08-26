@@ -11,4 +11,4 @@ RUN pwd && ls
 #stage 2
 FROM nginx:alpine
 COPY ./nginx.conf /etc/nginx/nginx.conf
-COPY --from=node app/dist/modulefederation /usr/share/nginx/html
+COPY --from=node app/dist/apps/root /usr/share/nginx/html
