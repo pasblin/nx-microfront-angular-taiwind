@@ -1,0 +1,6 @@
+{
+  "login": "https://main--demo-log-in.netlify.app",
+  "dashboard": "https://main--demo-dash.netlify.app",
+  "app-one": "https://main--demo-app-one.netlify.app",
+  "app-two": "https://main--demo-app-two.netlify.app"
+}

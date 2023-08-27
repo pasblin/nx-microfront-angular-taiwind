@@ -1,7 +1,7 @@
 import {inject} from "@angular/core";
 
 import {Router} from "@angular/router";
-import {AuthService} from "@demo-micro-front/shared/auth";
+import { AuthService } from "../services/auth.service";
 
 
 export const authenticationGuard = async() => {

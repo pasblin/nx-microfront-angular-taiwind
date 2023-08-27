@@ -1,6 +1,6 @@
 {
-  "login": "https://main--demo-log-in.netlify.app",
-  "dashboard": "https://main--demo-dash.netlify.app",
-  "app-one": "https://main--demo-app-one.netlify.app",
-  "app-two": "https://main--demo-app-two.netlify.app"
+  "login": "http://localhost:4201",
+  "dashboard": "http://localhost:4202",
+  "app-one": "http://localhost:4203",
+  "app-two": "http://localhost:4204"
 }
