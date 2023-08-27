@@ -1,6 +1,6 @@
 {
-  "login": "https://main--classy-seahorse-30fdd3.netlify.app:4201",
-  "dashboard": "https://main--classy-seahorse-30fdd3.netlify.app:4202",
-  "app-one": "https://main--classy-seahorse-30fdd3.netlify.app:4203",
-  "app-two": "https://main--classy-seahorse-30fdd3.netlify.app:4204"
+  "login": "https://main--demo-log-in.netlify.app",
+  "dashboard": "https://main--demo-dash.netlify.app",
+  "app-one": "https://main--demo-app-one.netlify.app",
+  "app-two": "https://main--demo-app-two.netlify.app"
 }
