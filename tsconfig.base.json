@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@demo-micro-front/shared/auth": ["libs/shared/auth/src/index.ts"]
+      "@demo-micro-front/shared/auth": ["libs/shared/auth/src/index.ts"],
+      "react-app/Module": ["apps/react-app/src/remote-entry.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
