@@ -2,6 +2,7 @@ import { Route } from '@angular/router';
 import { loadRemoteModule } from '@nx/angular/mf';
 import { NotFoundComponent } from './NotFound/not-found.component';
 import { authenticationGuard, notAuthenticationGuard } from "@demo-micro-front/shared/auth";
+import { WrapperComponent } from './test-wrapper/test-wrapper.component';
 
 export const appRoutes: Route[] = [
   {
@@ -27,6 +28,10 @@ export const appRoutes: Route[] = [
     canActivate: [notAuthenticationGuard],
     loadChildren: () =>
       loadRemoteModule('login', './Routes').then((m) => m.remoteRoutes),
+  },
+  {
+    path: 'react-app',
+    component: WrapperComponent
   },
   {
     path: '**',
